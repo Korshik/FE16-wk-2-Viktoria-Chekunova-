@@ -1,5 +1,103 @@
 @import url(../css/text.css);
-.row {
+.header{
+    margin-top: 10rem;
+}
+.navbar{
+    display: inline;
+}
+.nav-background{
+   background-color: #2b2e4a;
+   width: 100%;
+    
+}
+
+.navbar-nav {
+    display: inline-block;
+    display: flex;
+    -ms-flex-direction: column;
+    justify-content:space-evenly;
+    align-items: baseline;
+    flex-direction:row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #e9ecef
+  }
+  .card-body {
+  
+    background-color:#2b2e4a ;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    text-align: center;
+  }
+  
+  .card-title {
+    margin-top: 80px; 
+      color:#ffffff ;
+    margin-bottom: 0.75rem;
+    white-space: nowrap;
+  font-size: 3vw;
+  max-width: 20ch;
+  white-space: pre-wrap;
+  margin-left: 33%;
+  }
+  
+  .card-text {
+    white-space: nowrap;
+  font-size: 1vw;
+  max-width: 65ch;
+  white-space: pre-wrap;
+  margin-left: 30%;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: #e84545;
+    border-color: #e84545;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #e84545;
+    border-color: #e84545;
+  }
+  
+  .btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #e84545;
+    border-color: #e84545;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
+  
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #e84545;
+    border-color: #e84545;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #e84545;
+    border-color: #e84545;
+  }
+  
+  .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
+  
+ 
+  
+
+
+
+
+/*.row {
     border: 1px solid #808088;
     padding: 2px;
     margin-top: 10px;
@@ -58,5 +156,4 @@ h3 {
 .slide-block,
 .carousel-item {
     width: 800px;
-    height: 400px;
-}
+    height: 400px;}
