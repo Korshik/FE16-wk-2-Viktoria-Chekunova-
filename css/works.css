@@ -1,0 +1,63 @@
+.works_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  justify-content: stretch;
+  align-content: stretch;
+  align-items: center;
+  grid-template-areas:
+    "pict1 pict2 pict3 pict4"
+    "pict5 pict6 pict7 pict8";
+}
+
+.pict1 {
+
+  align-self: end;
+  grid-area: pict1;
+}
+
+.pict2 {
+
+  align-self: end;
+  grid-area: pict2;
+}
+
+.pict3 {
+
+  align-self: end;
+  grid-area: pict3;
+}
+
+.pict4 {
+
+  align-self: end;
+  grid-area: pict4;
+}
+
+.pict5 {
+
+  align-self: start;
+  grid-area: pict5;
+}
+
+.pict6 {
+
+  align-self: start;
+  grid-area: pict6;
+}
+
+.pict7 {
+
+  align-self: start;
+  grid-area: pict7;
+}
+
+.pict8 {
+
+  align-self: start;
+  grid-area: pict8;
+}
