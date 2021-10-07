@@ -6,6 +6,21 @@
   width: 45px;
   align-self: center;
 }
+.card-img-pens{
+  width: 40px;
+  align-self: center;
+  height: 37px;
+}
+.card-img-lamp{
+  width: 40px;
+  align-self: center;
+  height: 37px;
+}
+.card-img-atom{
+  width: 40px;
+  align-self: center;
+  height: 37px;
+}
 
 .card{
 margin: 20px 20px 20px 20px;
